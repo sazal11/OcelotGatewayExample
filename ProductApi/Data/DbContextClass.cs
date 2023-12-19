@@ -15,7 +15,7 @@ namespace ProductApi.Data
         {
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
         }
-
+        //dbsets
         public DbSet<Product> Products { get; set; }
     }
 }
